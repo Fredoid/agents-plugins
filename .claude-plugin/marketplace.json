@@ -1,0 +1,21 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "fredoid-official-marketplace",
+  "description": "Marketplace for fredoid plugins",
+  "owner": {
+    "name": "Fredoid",
+    "email": "fjp.webmaster@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "iterative-backlog",
+      "description": "Automate application backlog management",
+      "author": {
+        "name": "fredoid"
+      },
+      "category": "Development",
+      "source": "./plugins/iterative-backlog",
+      "homepage": "https://github.com/fredoid/iterative-backlog"
+    }
+  ]
+}

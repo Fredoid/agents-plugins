@@ -1,0 +1,9 @@
+{
+  "name": "iterative-backlog",
+  "description": "Automate application backlog management",
+  "version": "1.0.0",
+  "author": {
+    "name": "Fredoid",
+    "email": "fjp.webmaster@gmail.com"
+  }
+}
