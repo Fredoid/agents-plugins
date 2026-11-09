@@ -17,6 +17,7 @@ When you create tests or want to test the application, always respect thoses rul
 - End to End test should always be up to date the of the product specifications, They must always allow verification of the correct functioning of the behavior expected by the specifications and expeted user experience.
 - End to end tests for web interface must be implemented with Typescript and Playwriht
 - End to end tests for mobile application must be implemented with Maestro testing framework.
+- For the sake of performance and test execution time, if a phone connected via USB is detected, run the Maestro mobile E2E tests on that phone instead of the emulator. Use the emulator only when no phone is available.
 - Global testing strategy should be documented.
 - Tests plan must be documented into the test-plan.md file into the folder /docs of the project folder.
 - Tests plan file test-plan.md must be maintenained and up to date regarfing to the progression of the iterations.
