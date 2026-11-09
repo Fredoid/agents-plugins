@@ -9,6 +9,7 @@ Lexique :
 
 When create or read file, always respect thoses rules :
 - All documentation files must be into the folder /docs of project folder
+- The iterations backlog must be into the folder /docs/backlog of project folder : /docs/backlog/backlog.md for the summary table of all iterations, and one file per iteration named with its number (/docs/backlog/1.md, /docs/backlog/2.md, etc...)
 - All specifications files  must be into the folder /docs/specs of project folder
 - All design specifications files  must be into the folder /docs/specs/design of project folder
 - All technical and architectural specifications files must be into the folder /docs/specs/architecture of project folder
